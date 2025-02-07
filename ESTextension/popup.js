@@ -9,12 +9,12 @@ document.getElementById('extractButton').addEventListener('click', async () => {
       
       if (response.success) {
           // Create blob and download
-          const blob = new Blob([response.content], { type: 'text/plain;charset=utf-8' });
+          const blob = new Blob([response.content], { type: 'application/json' });
           const url = URL.createObjectURL(blob);
           
           await chrome.downloads.download({
               url: url,
-              filename: 'extracted_table.txt',
+              filename: 'extracted_table.json',
               saveAs: true
           });
           

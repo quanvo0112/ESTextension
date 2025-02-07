@@ -30,15 +30,14 @@ function extractTable() {
         }
     });
 
-    // Create text content
-    let content = headers.join('\t') + '\n';
-    rows.forEach(row => {
-        content += row.join('\t') + '\n';
-    });
+    const data = {
+        headers: headers,
+        rows: rows
+    }
 
     return {
         success: true,
-        content: content
+        content: JSON.stringify(data, null, 2)
     };
 }
 
