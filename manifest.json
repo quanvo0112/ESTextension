@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Subjects Table Extractor",
-  "version": "1.01",
+  "version": "1.1.1",
   "description": "Extract tables to TXT or JSON with tab separators",
   "permissions": [
     "activeTab",
