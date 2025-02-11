@@ -5,7 +5,7 @@ Trường Đại học Khoa học Tự nhiên - Đại học Quốc Gia Thành p
 
 [English Below]  
 
-Đây là extension dùng để kéo dữ liệu từ phần danh sách lớp mở đăng ký học phần  
+Đây là extension dùng để kéo dữ liệu từ phần danh sách lớp mở đăng ký học phần từ website Portal của trường  
 
 
 ------------------------------------------------------------------------------  
