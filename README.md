@@ -11,3 +11,5 @@ Trường Đại học Khoa học Tự nhiên - Đại học Quốc Gia Thành p
 ------------------------------------------------------------------------------  
 
 I made this extension to extract my subjects list from my university's website. Therefore, this is my personal project, maybe it will be useful for you, maybe not. Thanks for coming and reviewing my project  
+
+Main project: [SchedulerRaylibHCMUS](https://github.com/hongphuchcmus/SchedulerRaylibHCMUS)
