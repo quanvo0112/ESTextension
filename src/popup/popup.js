@@ -67,6 +67,8 @@ async function downloadContent(fileType, content) {
 }
 
 extractButton.addEventListener('click', async () => {
+  extractButton.disabled = true;
+  extractButton.classList.add('loading');
   setStatus('Extracting...');
 
   try {
@@ -84,5 +86,8 @@ extractButton.addEventListener('click', async () => {
     setStatus('Table extracted successfully!', 'success');
   } catch (error) {
     setStatus(`Error: ${error.message}`, 'error');
+  } finally {
+    extractButton.disabled = false;
+    extractButton.classList.remove('loading');
   }
 });
